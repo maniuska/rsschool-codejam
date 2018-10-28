@@ -1,5 +1,5 @@
 function sum(a, b) { 
-    return a + b; 
+	return a + b; 
 } 
   
 function make(value){
@@ -14,6 +14,6 @@ function make(value){
 		}
 		return f;
 	}
-  
-return f;
-  } 
+	
+  	return f;
+} 
