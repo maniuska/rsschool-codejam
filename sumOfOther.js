@@ -1,8 +1,8 @@
 function sumOfOther(arr){
-    var sum = 0;
-    for (var i= 0; i<arr.length; i++)
-        sum+=arr[i];
-        for (var i= 0; i<arr.length; i++)
-            arr[i]= sum-arr[i];
-    return arr; 
+    var sum = arr.reduce(function(a, b) {
+        return a + b;
+    });
+    return arr.map(function(num) {
+        return sum - num;
+    });
 }
