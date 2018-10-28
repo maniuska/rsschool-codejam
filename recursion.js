@@ -1,3 +1,5 @@
+'use strict';
+
 function recursion (arg, array, index) {
     array = array || [];
     index = index || 0;
